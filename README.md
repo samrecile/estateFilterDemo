@@ -19,7 +19,7 @@ I'm working on fine tuning the financial analysis (particularly rent projections
 
 ### Built With
 -	Django/Django Rest Framework
-- React Js
+- ReactJs
 - Redux Toolkit (Authentication)
 - Postgresql
 - Heroku
