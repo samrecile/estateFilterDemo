@@ -4,10 +4,18 @@
 
 ## About This Project
 SITE LINK: http://www.estatefilter.com/
- 
 
-Features include:
-- 
+This site is a tool that will enable real estate investors, agents, and other industry professionals to easily and quickly sort through the large number of properties added to the MLS everyday. Users will also be able to view, customize, and create customized analysis for properties, as well as view market data.
+
+## Features
+The backend calls an external api daily to update the database with all the current listings in each target area. I implemented a variety financial functions which I integrated into custom model methods so that the properties can be sorted right after the api is called. I also used these functions with custom serializers that allow users to access detailed reports in the frontend, as well as customize those results and perform their own analysis. The analysis is based on similar properties in that area.
+
+The fronted allows users to sort through these properties based on: location, price, and commonly used real estate metrics. Users can then view detail pages for each of the properties and see up to 30 years projected returns on each property. Users also have the option to customize the assumptions and recalculate based on their own inputs. Users can also view aggregate data for each city and zipcode EstateFilter operates in.
+
+For authentication, I implemented a custom user model in the backend and used Redux Toolkit & Redux Persist for the frontend.
+
+I'm working on fine tuning the financial analysis (particularly rent projections) using machine learning and adding other custom, more advanced functionality for a premium version of the app.
+
 
 ### Built With
 -	Django/Django Rest Framework
@@ -16,11 +24,6 @@ Features include:
 - Postgresql
 - Heroku
 
-## Getting Started
-
-
-## License
-n/a
 
 ## Contact
 Sam Recile - recilesam@gmail.com
