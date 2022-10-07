@@ -27,3 +27,9 @@ I'm working on fine tuning the financial analysis (particularly rent projections
 
 ## Contact
 Sam Recile - recilesam@gmail.com
+
+<img width="1426" alt="Screen Shot 2022-10-06 at 10 42 50 PM" src="https://user-images.githubusercontent.com/41307771/194512103-6414ee2a-5948-4108-938d-90130acc4119.png">
+
+<img width="1436" alt="Screen Shot 2022-10-06 at 10 43 11 PM" src="https://user-images.githubusercontent.com/41307771/194512184-e7208d3d-f1c0-4f28-894c-2b20f0a2e4c8.png">
+
+
