@@ -10,7 +10,7 @@ This site is a tool that will enable real estate investors, agents, and other in
 ## Features
 The backend calls an external api daily to update the database with all the current listings in each target area. I implemented a variety financial functions which I integrated into custom model methods so that the properties can be sorted right after the api is called. I also used these functions with custom serializers that allow users to access detailed reports in the frontend, as well as customize those results and perform their own analysis. The analysis is based on similar properties in that area.
 
-The fronted allows users to sort through these properties based on: location, price, and several commonly used real estate metrics. Users can then view detail pages for each of the properties and see up to 30 years projected returns on each property. Users also have the option to customize the assumptions and recalculate based on their own inputs. Users can also view aggregate data for each city and zipcode EstateFilter operates in.
+The fronted allows users to sort through these properties based on: location, price, and several commonly used real estate metrics. Users can then view detail pages for each of the properties and see up to 30 years of projected returns. Users also have the option to customize the assumptions and recalculate based on their own inputs. Users can also view aggregate data for each city and zipcode EstateFilter operates in.
 
 For authentication, I implemented a custom user model in the backend and used Redux Toolkit & Redux Persist for the frontend.
 
