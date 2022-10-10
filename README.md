@@ -12,7 +12,7 @@ The backend calls an external api daily to update the database with all the curr
 
 The fronted allows users to sort through these properties based on: location, price, and several commonly used real estate metrics. Users can then view detail pages for each of the properties and see up to 30 years of projected returns. Users also have the option to customize the assumptions and recalculate based on their own inputs. Users can also view aggregate data for each city and zipcode EstateFilter operates in.
 
-For authentication, I implemented a custom user model in the backend and used Redux Toolkit & Redux Persist for the frontend.
+For authentication, I implemented a custom user model with JWT auth in the backend and used Redux Toolkit & Redux Persist for fetching data and managing sessions in the frontend.
 
 I'm working on fine tuning the financial analysis (particularly rent projections) using machine learning and adding other custom, more advanced functionality for a premium version of the app.
 
