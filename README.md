@@ -3,7 +3,7 @@
 
 
 ## About This Project
-SITE LINK: http://www.estatefilter.com/
+SITE LINK: https://www.estatefilter.com/
 
 This site is a tool that will enable real estate investors, agents, and other industry professionals to easily and quickly sort through the large number of properties added to the MLS everyday. Users will also be able to view, customize, and create customized analysis for properties, as well as view market data.
 
